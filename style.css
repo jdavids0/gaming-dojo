@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* utillity classes start */
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-top{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+/* utility classes end */
+
+header{
+    background-color: black;
+    height: 100px;
+    border-top: 6px solid purple;
+}
+
+.nav-left{
+    color: white;
+    width: 50%;
+    height: 30%;
+}
+
+#dojo{
+    color: purple;
+}
+
+.nav-right{
+/*     background-color: lightblue; */ 
+    color: white;
+    width: 30%;
+    height: 30%;
+}
+
+#shop-cart{
+    height: 30px;
+    filter: invert(1);
+}
+
+#search-tool{
+    height: 30px;
+    filter: invert(1);
+}
+
+#currencyPicker{
+    font-size: large;
+}
+
+#shop-items{
+    font-size: large;
+    text-decoration: underline;
+}
+
+.main{
+    width: 90%;
+    margin: 5%;
+    min-height: 200px;
+}
+
+.highlights{
+    height: 400px;
+    width: 100%;
+    /* margin-bottom: 1%; */
+}
+
+.highlights-title{
+    width: 100%;
+    height: 10%;
+}
+
+.highlights-image{
+    background-color: lavender;
+    border: 2px solid black;
+    border-radius: 1%;
+    width: 100%;
+    height: 70%;
+}
+
+.chevron{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    font-size: 70pt;
+}
+
+.preview-image{
+    width: 60%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+#placeholder{
+    height: 100%;
+    border-radius: 1%;
+
+}
+
+.highlights-footer{
+    width: 60%;
+    height: 3%;
+    margin-top: 2%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+}
+
+.markers{
+    background-color: lightgray;
+    width: 15%;
+    height: 80%;
+}
+
+#marker-two{
+    background-color: purple;
+}
+
+.features{
+    height: 200px;
+    width: 100%;
+    gap: 1%;
+}
+
+
+.features-col{
+    background-color: cyan;
+    border: 2px solid black;
+    border-radius: 3%;
+    height: 120%;
+    width: 33%;
+    padding-bottom: 1%;
+}
+
+.features-pic{
+    height: 60%;
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cyberpunk{
+    height: 90%;
+}
+
+.features-icon{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4%;
+    gap: 5px;
+}
+
+.logos{
+    height: 20px;
+}
+
+#penguin{
+    height: 20px;
+}
+
+.features-price{
+    height: 30%;
+    width: 100%;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.minus-button{
+    background-color: purple;
+    color: white;
+    font-size: larger;
+    border: none;
+    margin-left: 5%;
+    padding: 2% 2%;
+}
+
+.buy-button{
+    background-color: rgb(20, 114, 20);
+    color: white;
+    font-size: larger;
+    border: none;
+    padding: 2% 2%;
+    margin-right: 5%;
+}
+
+.old-price{
+    text-decoration: line-through;
+}

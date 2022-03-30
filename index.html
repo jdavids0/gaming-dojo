@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Dojo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="flex">
+        <div class="nav-left">
+            <h1>Gaming<span id="dojo">Dojo</span></h1>
+        </div>
+        <div class="nav-right flex">
+            <select id="currencyPicker">
+                <option value="euro">Euro €</option>
+                <option value="dollar">Dollar $</option>
+            </select>
+            <img src="images/shoppingcart.png" alt="shopping cart icon" id="shop-cart">
+            <p id="shop-items">0</p>
+            <img src="images/search-icon-png-5.png" alt="search icon" id="search-tool">
+
+        </div>
+
+    </header>
+    <div class="main">
+        <div class="highlights">
+            <div class="highlights-title">
+                <h2 id="highlights-text">Highlights</h2>
+            </div>
+            <div class="highlights-image flex">
+                <div class="chevron">
+                    <p class="caret" id="left-caret" onclick="switchBack()"><</p>
+                </div>
+                <div class="preview-image">
+                    <img src="images/placeholder_ad.jpg" alt="placeholder ad" id="placeholder">
+                </div>
+                <div class="chevron">
+                    <p class="caret" id="right-caret" onclick="switchPic()">></p>
+                </div>
+
+            </div>
+            <div class="highlights-footer">
+                <div class="markers"></div>
+                <div class="markers" id="marker-two"></div>
+                <div class="markers"></div>
+                <div class="markers"></div>
+            </div>
+
+        </div>
+        <div class="features flex">
+            <div class="features-col">
+                <div class="features-pic">
+                    <img src="images/cyberpunk_2077_box_art.jpg" alt="cyberpunk dude" class="cyberpunk">
+                    <p>Cyberpunk 2077</p>
+                </div>
+                <div class="features-icon">
+                    <img src="images/microsoft.png" alt="microsoft logo" class="logos">
+                    <img src="images/apple.png" alt="apple logo" class="logos">
+                </div>
+                <div class="features-price">
+                    <button class="minus-button">-20%</button>
+                    <div>
+                        <p class="old-price">€14.98</p>
+                        <p class="new-price">€<strong>10.49</strong></p>
+                    </div>
+                    <button class="buy-button" onclick="buy()">Buy</button>
+                </div>
+
+            </div>
+            <div class="features-col">
+                <div class="features-pic">
+                    <img src="images/cyberpunk_2077_box_art.jpg" alt="cyberpunk dude" class="cyberpunk">
+                    <p>Cyberpunk 2077</p>
+                </div>
+                <div class="features-icon">
+                    <img src="images/microsoft.png" alt="microsoft logo" class="logos">
+                    <img src="images/apple.png" alt="apple logo" class="logos">
+                </div>
+                <div class="features-price">
+                    <button class="minus-button">-20%</button>
+                    <div>
+                        <p class="old-price">€14.98</p>
+                        <p class="new-price">€<strong>10.49</strong></p>
+                    </div>
+                    <button class="buy-button" onclick="buy()">Buy</button>
+                </div>
+
+                </div>
+                <div class="features-col">
+                    <div class="features-pic">
+                        <img src="images/cyberpunk_2077_box_art.jpg" alt="cyberpunk dude" class="cyberpunk">
+                        <p>Cyberpunk 2077</p>
+                    </div>
+                    <div class="features-icon">
+                        <img src="images/microsoft.png" alt="microsoft logo" class="logos">
+                        <img src="images/apple.png" alt="apple logo" class="logos">
+                        <img src="images/penguin.jpg" alt="linux penguin" id="penguin" onclick="alert('this game is supported by Linux')">
+                    </div>
+                    <div class="features-price">
+                        <button class="minus-button">-20%</button>
+                        <div>
+                            <p class="old-price">€14.98</p>
+                            <p class="new-price">€<strong>10.49</strong></p>
+                        </div>
+                        <button class="buy-button" onclick="buy()">Buy</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="./script.js"></script>
+</body>
+
+</html>
